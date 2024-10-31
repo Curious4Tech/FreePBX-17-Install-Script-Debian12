@@ -116,6 +116,9 @@ Default Access URL:  ` http://<server-ip>/  ` or   `https://<server-ip>/ `
 
 If SSL is enabled during setup, use HTTPS (port 443); otherwise, use HTTP (port 80).
 
+![access](https://github.com/user-attachments/assets/501e21d5-1582-4f6b-a38f-2f12c3fd6fd3)
+
+
 --- 
 
  [FreePBX Documentation](https://www.freepbx.org/get-started/)
