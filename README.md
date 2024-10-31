@@ -113,5 +113,4 @@ Once the installation is complete, FreePBX 17 should be ready for use. Access th
 
 --- 
 
-Enjoy using your FreePBX 17 setup!
-```
+ [FreePBX Documentation](https://www.freepbx.org/get-started/)
