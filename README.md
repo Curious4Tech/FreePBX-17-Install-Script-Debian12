@@ -27,11 +27,13 @@ Commands:
      apt-get -y install net-tools htop screen tshark vim sngrep
   ```
 
+
 ## Step 2: Run the FreePBX Installation Script
 
 1. **SSH into the Debian 12 system** as the `root` user.
 
 2. **Navigate to the temporary directory**:
+
    ```bash
    cd /tmp
    ```
