@@ -110,9 +110,9 @@ If you need DAHDI support in the future, ensure the system’s kernel version is
 ## Final Steps
 
 Once the installation is complete, FreePBX 17 should be ready for use. Access the FreePBX admin interface by opening a web browser and entering the IP address of your server.
-To access the FreePBX web interface, open a browser and enter the server's IP address using port   `80 (HTTP)  ` or port   `443 (HTTPS)  `, depending on your configuration:
+To access the FreePBX web interface, open a browser and enter the server's IP address using port   `80 (HTTP)  ` or port   `443 (HTTPS)  ` depending on your configuration:
 
-    Default Access URL:  ` http://<server-ip>/  ` or   `https://<server-ip>/  `
+Default Access URL:  ` http://<server-ip>/  ` or   `https://<server-ip>/ `
 
 If SSL is enabled during setup, use HTTPS (port 443); otherwise, use HTTP (port 80).
 --- 
