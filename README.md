@@ -1,9 +1,7 @@
 # FreePBX-17-Install-Script-Debian12
 Automated install guide and script for setting up FreePBX 17 on Debian 12. Installs all dependencies, Sangoma repositories, and optional DAHDI/Wanpipe drivers, creating a scalable, open-source telephony platform ideal for personal and enterprise use.
 
-
-```markdown
-# FreePBX 17 Installation Guide on Debian 12
+## FreePBX 17 Installation Guide on Debian 12
 
 This guide will walk you through the complete installation of FreePBX 17 on a Debian 12 system using a dedicated installation script. This script installs all required dependencies and sets up the Sangoma repository for commercial modules.
 
