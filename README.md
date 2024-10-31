@@ -9,6 +9,23 @@ This guide will walk you through the complete installation of FreePBX 17 on a De
 
 1. **Download and Install Debian 12** on your host or virtual machine, ensuring it has network connectivity.
 2. Once installed, **log in to the system** as the `root` user or a user with `sudo` privileges.
+3. Only leave **SSH Server** and **Standard System Utilitie** selected. If you would like a Desktop you can install these options, but in most cases the PBX will be managed via the webUI and SSH. There is no need to have a Desktop installed on the PBX.
+
+
+ ![image](https://github.com/user-attachments/assets/055e24c1-fffe-4392-a196-c900434e9534)
+
+   
+4. Once logged in, run the commands below. This has to be done to enable ROOT ssh access. 
+Commands:
+  ```bash
+    echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
+    service ssh restart
+    ip addr
+ ```
+ 5.  Once you are logged in via SSH you can run the command below to install packages that typically were preinstalled on FreePBX 16 and lower. These are OPTIONAL packages.
+    ```bash
+     apt-get -y install net-tools htop screen tshark vim sngrep
+  ```
 
 ## Step 2: Run the FreePBX Installation Script
 
