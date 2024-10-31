@@ -26,7 +26,7 @@ Commands:
 
  5.  Once you are logged in via SSH you can run the command below to install packages that typically were preinstalled on FreePBX 16 and lower. These are OPTIONAL packages.
 
-    ```bash
+```bash
      apt-get -y install net-tools htop screen tshark vim sngrep
   ```
 
