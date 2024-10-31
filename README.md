@@ -17,12 +17,15 @@ This guide will walk you through the complete installation of FreePBX 17 on a De
    
 4. Once logged in, run the commands below. This has to be done to enable ROOT ssh access. 
 Commands:
+
   ```bash
     echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
     service ssh restart
     ip addr
  ```
+
  5.  Once you are logged in via SSH you can run the command below to install packages that typically were preinstalled on FreePBX 16 and lower. These are OPTIONAL packages.
+
     ```bash
      apt-get -y install net-tools htop screen tshark vim sngrep
   ```
