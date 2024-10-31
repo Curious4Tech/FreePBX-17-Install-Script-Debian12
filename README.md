@@ -115,6 +115,7 @@ To access the FreePBX web interface, open a browser and enter the server's IP ad
 Default Access URL:  ` http://<server-ip>/  ` or   `https://<server-ip>/ `
 
 If SSL is enabled during setup, use HTTPS (port 443); otherwise, use HTTP (port 80).
+
 --- 
 
  [FreePBX Documentation](https://www.freepbx.org/get-started/)
